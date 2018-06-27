@@ -12,7 +12,7 @@ public class Abstract extends Testbase{
 		init();
 	}
 	
-	@AfterClass(enabled=false)
+	@AfterClass()
 	public void endTest() {
 		driver.close();
 	}

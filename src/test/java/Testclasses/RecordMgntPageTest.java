@@ -65,7 +65,7 @@ public class RecordMgntPageTest extends Abstract {
 			managementpage.language.click();
 			Select language = new Select(managementpage.language);
 			language.selectByVisibleText(Repository.getProperty("language"));
-			//managementpage.addtolistbutton.click();
+			managementpage.addtolistbutton.click();
 		} catch (Exception ex) {
 			logger.catching(ex);
 			assertTrue(false);
